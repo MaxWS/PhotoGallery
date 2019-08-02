@@ -30,7 +30,7 @@ function clickImage (e) {
 	}
 }
 //Remove fade-in class after .5 seconds
-setTimeout(() => currentImg.classList.remove('image-fade'), 500);
+setTimeout( () => {currentImg.classList.remove('image-fade');} , 500);
 
 
 

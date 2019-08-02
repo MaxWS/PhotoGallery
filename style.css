@@ -47,23 +47,23 @@ img {
 }
 .photo-gallery {
 	display: grid;
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: 1fr;
 }
-img.active {
-	min-height: 50vh;
-}
+/*img.active {
+	min-height: 3em;
+}*/
 .active {
 	grid-row: 1/2;
-	
 }
-.images-options {
+/*.images-options {
 	grid-row: 2/3;
-}
+}*/
 .images {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-gap: 0.2em;
+
 	/*min-height: 60vh;*/
 }
 .images img:hover {
@@ -89,6 +89,7 @@ img.active {
 }
 .farewell {
   text-align: center;
+  padding-bottom: 1em;
 }
 .social-media {
   display: flex;
@@ -99,11 +100,14 @@ img.active {
 /*FOOTER*/
 @media (min-width: 600px) {
 	.images {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.container {/* Center the container */
-	max-width: 900px;
+	max-width: 960px;
 	margin: 0 auto;
+	}
+	.images-options {
+		grid-row: 2/3;
 	}
 	
 }	
