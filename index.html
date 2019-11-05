@@ -2,34 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="author" content="Maximiliano Diaz Garcia">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery</title>
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
 	crossorigin="anonymous">
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
+	<!-- CSS links -->
 	<link rel="stylesheet" href="reset.css" type="text/css">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<title>Photo Gallery</title>
 </head>
 <body>	
 	<main>
-	<div class="container">
-		<header>
-			<h1>Funky Vanilla.JS Photo Gallery</h1>
-		</header>
-		<div class="photo-gallery">
-			<img src="img/one.jpg" alt="" class="active">
-			<div class="images-options">
-				<div class="images">
-					<img src="img/one.jpg" alt="">
-					<img src="img/two.jpg" alt="">
-					<img src="img/three.jpg" alt="">
-					<img src="img/four.jpg" alt="">
-					<img src="img/five.jpg" alt="">
-					<img src="img/six.jpg" alt="">
+		<div class="container">
+			<header>
+				<h1>Funky Vanilla.JS Photo Gallery</h1>
+			</header>
+			<div class="photo-gallery">
+				<img src="img/one.jpg" alt="current photo" class="active">
+				<div class="images-options">
+					<div class="images">
+						<img src="img/one.jpg" alt="elvis">
+						<img src="img/two.jpg" alt="vinyl">
+						<img src="img/three.jpg" alt="van">
+						<img src="img/four.jpg" alt="wheel">
+						<img src="img/five.jpg" alt="tower">
+						<img src="img/six.jpg" alt="vintage car">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</main>
 	<footer class="footer">
 		<div class="container footer">
@@ -38,13 +43,12 @@
 					<p>Let’s talk, get in touch!</p>
 				</div>
 				<div class="social-media">
-					<i class="fab fa-linkedin fa-3x"></i>
-					<i class="far fa-envelope fa-3x"></i>
-					<i class="fab fa-github fa-3x"></i>
+					<a href="https://au.linkedin.com/in/maximiliano-diaz-garcia-71009a99?trk=people-guest_profile-result-card_result-card_full-click" class="fab fa-linkedin fa-3x"></a>
+					<a href="mailto:maxdjob1@gmail.com?Subject=Hello%20Max" class="far fa-envelope fa-3x"></a>
+					<a href="https://github.com/MaxWS" class="fab fa-github fa-3x"></a>
 				</div>
 			</section>
 		</div>
-
 	</footer>
 <script src="app.js"></script>	
 </body>
